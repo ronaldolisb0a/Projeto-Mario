@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ronaldo Lisboa</title>
+</head>
+
+<body>
+    <div class="mascara-form" onclick="hideForm()"></div>
+
+    <header class="header">
+        <img src="./assets/logo-header.png" alt="logo-header">
+        <a href="./index.html">Home</a>
+        <a href="./Nossos-Servicos.html">Our Services</a>
+        <a onclick="showForm()">Contact Us</a>
+    </header>
+
+
+    <div class="caixa-mae">
+        <div class="container-left">
+            <img class="logo-mario-bros" src="./assets/logo.png" alt="logo">
+            <p>
+                Mario & Luigi Plumbers - Solving Your Plumbing Problems in Style!
+            </p>
+            <p>
+                Have you ever found yourself in a plumbing emergency? Unexpected leaks, clogged pipes or faucets that won’t stop dripping? Don’t worry, because we’re here to save the day! Introducing the Mushroom Kingdom’s most famous plumbers – Mario and Luigi!
+            </p>
+
+            <button  onclick="showForm()">Get in Contact</button>
+        </div>
+
+        <div class="container-right">
+            <img class="img-mario-luigi" src="./assets/mario.png" alt="logo mario e Luigi">
+        </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./assets/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a class="link-whatsapp"
+    href="#">
+        <img src="./assets/whatsapp.png" alt="whatsapp">
+    </a>
+
+    <form 
+        class="formulario-fale-conosco"
+        action="https://formcarry.com/s/Qf6347atj0l"
+        method="POST"
+        enctype="multipart/form-data">        
+        <input placeholder="Your Nme" type="text" name="name">
+        <input placeholder="Your Phone" type="tel" name="phone">
+        <textarea placeholder="Type your problem here..." name="doubt"></textarea>
+        <button type="submit">Request a quote</button>
+    </form>
+
+</body>
+
+    <script src="./scripts.js"></script>
+
+</html>

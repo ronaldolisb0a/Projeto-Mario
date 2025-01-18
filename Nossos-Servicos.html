@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-servicos.css">
+    <title>Our Services</title>
+</head>
+
+<body>
+    <div class="mascara-form" onclick="hideForm()"></div>
+
+    <div class="caixa-mae">
+        <header class="header">
+            <img src="./assets/logo-header.png" alt="logo-header">
+            <a href="./index.html">Home</a>
+            <a href="./Nossos-Servicos.html">Our Services</a>
+            <a onclick="showForm()">Contact Us</a>
+        </header>
+
+        <div class=" caixa-principal">
+            <figure>
+                <img class="img-domicilio" src="./assets/domicilio.jpeg" alt="home work">
+                <figcaption>Home Work</figcaption>
+            </figure>
+            <figure>
+                <img class="img-empresarial" src="./assets/empresarial.jpg" alt="business works">
+                <figcaption>Business Works</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="caixa-img">
+        <img class="img-background" src="././assets/backgroud.jpeg"></img>
+        <div class="mascara"></div>
+    </div>
+
+    <a class="link-whatsapp" href="#">
+        <img src="./assets/whatsapp.png" alt="whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/Qf6347atj0l" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Your Name" type="text" name="name">
+        <input placeholder="Your Phone" type="tel" name="phone">
+        <textarea placeholder="Type your problem here..." name="doubt"></textarea>
+        <button type="submit">Request a quote</button>
+    </form>
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
